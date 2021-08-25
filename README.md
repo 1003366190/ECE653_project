@@ -20,7 +20,7 @@ Note that some other attacking methods are implemented by the "cleverhans" libra
 Note that for random_fuzz and pixel_fuzz, the .py files only contains the function for the fuzz step, the GENERATE_ADVERSARIAL  function in the report are realized by the loops in the tests files. 
 ## Directory "Models"
 Contains the ipython notebook files that build and train the 6 benchmarks networks. You can also see architecture and the accuracy of each model in these files.
-Contains the stored network in .h5 files. // Due to limitation of Github (single file size < 100mb, the .h5 files are excluded in this folder)
+Contains the stored network in .h5 files. Due to limitation of Github (single file size < 100mb), the .h5 files are excluded in this github repository
 The trained network are stored in .h5 files to be used by the other codes. 
 ## Directory "obj"
 Contains the output data of the test files. Allows the data to be reused by other Summary_Plots.ipynb
